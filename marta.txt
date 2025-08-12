@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnoza Autyzmu – Czaplinek Marta Paulińska</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f0e6; /* beż */
+            color: #003366; /* ciemny niebieski */
+        }
+        header {
+            background-color: #cce0ff; /* jasny niebieski */
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        header img {
+            height: 60px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+        nav {
+            background-color: #99c2ff; /* średni niebieski */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #cce0ff;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Prosty motylek w SVG -->
+        <svg width="60" height="60" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 50 C30 20, 10 10, 10 40 C10 60, 30 70, 50 50 C70 20, 90 10, 90 40 C90 60, 70 70, 50 50 Z" 
+                  stroke="orange" fill="none" stroke-width="2" />
+        </svg>
+        <h1>Diagnoza Autyzmu – Czaplinek Marta Paulińska</h1>
+    </header>
+    <nav>
+        <a href="#o-mnie">O mnie</a>
+        <a href="#posty">Posty</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="#cennik">Cennik</a>
+    </nav>
+    <main>
+        <section id="o-mnie">
+            <h2>O mnie</h2>
+            <p>Tu możesz wpisać informacje o sobie, swoim doświadczeniu i podejściu do diagnozy autyzmu.</p>
+        </section>
+
+        <section id="posty">
+            <h2>Posty</h2>
+            <p>Tutaj możesz dodawać wpisy, artykuły lub aktualności.</p>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Email: <a href="mailto:twojemail@example.com">twojemail@example.com</a></p>
+            <p>Telefon: 123-456-789</p>
+        </section>
+
+        <section id="cennik">
+            <h2>Cennik</h2>
+            <p>Opisz swoje usługi i ceny.</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Marta Paulińska – Diagnoza Autyzmu w Czaplinku
+    </footer>
+</body>
+</html>
